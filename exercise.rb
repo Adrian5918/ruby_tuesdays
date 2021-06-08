@@ -10,5 +10,8 @@ favorite_foods.each do |food|
   p "i love #{food}"
 end
 
-
-
+index = 0
+while index < favorite_foods.length
+  puts "#{index + 1} #{favorite_foods[index]}"
+  index = index + 1
+end
