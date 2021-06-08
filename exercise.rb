@@ -6,7 +6,9 @@ favorite_foods = []
  favorite_foods << food
 end
 
-p favorite_foods
+favorite_foods.each do |food|
+  p "i love #{food}"
+end
 
 
 
